@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "591270707917",
+    "project_id": "taritele2",
+    "storage_bucket": "taritele2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:591270707917:android:4a1fc7e230738c9d1c5f84",
+        "android_client_info": {
+          "package_name": "com.example.taritele"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoG6e4HZ9HoL5z1s8ItyAP5W7kcLf2Q-g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

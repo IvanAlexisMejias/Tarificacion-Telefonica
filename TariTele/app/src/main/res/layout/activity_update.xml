@@ -1,0 +1,61 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/nero">
+
+    <SearchView
+        android:id="@+id/searchView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:queryHint="Buscar Por ID"
+        android:background="@color/white"
+        android:textColorHint="@color/black"/>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/crud"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"/>
+
+    <EditText
+        android:id="@+id/phoneEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Numero De Telefono"
+        android:layout_marginTop="20dp"
+        android:textColorHint="@color/white"/>
+
+    <EditText
+        android:id="@+id/typeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tipo De Llamado"
+        android:layout_marginTop="20dp"
+        android:textColorHint="@color/white"/>
+
+    <EditText
+        android:id="@+id/durationEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Duracion"
+        android:layout_marginTop="20dp"
+        android:textColorHint="@color/white"/>
+
+    <Button
+        android:id="@+id/updateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Actualizar Registro Del Llamado"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/homeButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="volver al menu"
+        android:layout_marginTop="20dp" />
+</LinearLayout>

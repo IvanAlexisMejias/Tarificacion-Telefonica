@@ -1,0 +1,61 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/nero">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bienvenido Al Menu"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:textColor="@color/white"/>
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logreg"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:id="@+id/reportButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lista De Llamados"
+        android:textColorHint="@color/white"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/viewButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ver Detalle De Llamados"
+        android:textColorHint="@color/white"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/updateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Actualizar Registro De Llamado"
+        android:layout_marginTop="20dp"
+        android:textColorHint="@color/white"/>
+
+    <Button
+        android:id="@+id/deleteButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Borrar Registro De Llamado"
+        android:layout_marginTop="20dp"
+        android:textColorHint="@color/white"/>
+
+    <Button
+        android:id="@+id/logoutButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cerrar Sesion"
+        android:layout_marginTop="20dp"
+        android:textColorHint="@color/white"/>
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Tema principal -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#2C3E50</item> <!-- Azul Marino -->
+        <item name="colorPrimaryDark">#34495E</item> <!-- Azul Marino Oscuro -->
+        <item name="colorAccent">#1ABC9C</item> <!-- Verde Menta -->
+        <item name="android:windowBackground">#ECF0F1</item> <!-- Gris Claro -->
+        <item name="android:textColor">#2C2C2C</item> <!-- Negro -->
+    </style>
+
+    <!-- Estilo para Botones -->
+    <style name="ButtonStyle">
+        <item name="android:background">#F39C12</item> <!-- Dorado -->
+        <item name="android:textColor">#FFFFFF</item> <!-- Blanco -->
+        <item name="android:padding">12dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+    </style>
+
+    <!-- Estilo para TextViews -->
+    <style name="TextViewStyle">
+        <item name="android:textColor">#2C2C2C</item> <!-- Negro -->
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- Estilo para Modo Oscuro -->
+    <style name="DarkTheme" parent="Theme.AppCompat">
+        <item name="android:windowBackground">#1C1C1C</item> <!-- Negro -->
+        <item name="android:textColor">#FFFFFF</item> <!-- Blanco -->
+        <item name="colorPrimary">#34495E</item> <!-- Azul Marino Oscuro -->
+        <item name="colorAccent">#27AE60</item> <!-- Verde Lima -->
+    </style>
+
+</resources>
